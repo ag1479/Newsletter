@@ -10,6 +10,30 @@
     />
     <style>
       @media only screen and (max-width: 600px) {
+        .container {
+          width: 100% !important;
+        }
+        .newsletter-image {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
+        @media only screen and (max-width: 414px) {
+          .container {
+            width: 100% !important;
+          }
+          .article {
+            width: 320px !important;
+          }
+        }
+        @media only screen and (max-width: 320px) {
+          .article {
+            width: 275px !important;
+          }
+        }
+      }
+      /* 
+      @media only screen and (max-width: 600px) {
         table[class="container"] {
           width: 100% !important;
         }
@@ -31,7 +55,7 @@
             width: 275px !important;
           }
         }
-      }
+      } */
     </style>
   </head>
   <body
